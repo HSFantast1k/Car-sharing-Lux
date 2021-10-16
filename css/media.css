@@ -12,6 +12,9 @@
         width: 100%;
         margin-bottom: 30px;
     }
+    .rent__list {
+        margin: 15px auto;
+    }
 }
 
 
@@ -89,6 +92,14 @@
         padding: 20px 0;
     }
 
+    .rent__list {
+        justify-content: space-around;
+    }
+
+    .rent__list-item {
+        margin: 25px;
+    }
+
     .menu__list-item {
         margin: 0;
     }
@@ -101,9 +112,7 @@
     .menu-btn {
         display: block;
     }
-    .rent__item {
-        margin: 15px auto;
-    }
+
     .feedback__images {
         display: none;
     }
