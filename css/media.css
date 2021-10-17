@@ -4,9 +4,9 @@
     }
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1185px) {
     .rent__inner {
-        flex-wrap: wrap;
+        display: block;
     }
     .rent__content {
         width: 100%;
@@ -14,6 +14,7 @@
     }
     .rent__list {
         margin: 15px auto;
+        justify-content: space-around;
     }
 }
 
@@ -118,7 +119,15 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 680px) {
+    /* .rent__list {
+        display: block;
+    } */
+
+    .rent__list-item + .rent__list-item {
+        margin-left: 25px;
+    }
+
     .rent__content {
         text-align: center;
     }
